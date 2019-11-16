@@ -1,10 +1,10 @@
-# Angular 实战拼多多
+# Pin-DuoDuo by Angular8
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0-beta.11.
 
-## HTTP 的调试工具
+## HTTP Debugging Tool
 
-### 课程中的 Postman 请求的共享
+### POSTMAN
 
 [帖子的请求集合](https://www.getpostman.com/collections/406a2e8e136b27ffc946)
 
