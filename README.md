@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### POSTMAN
 
-[帖子的请求集合](https://www.getpostman.com/collections/406a2e8e136b27ffc946)
+[LINK](https://www.getpostman.com/collections/406a2e8e136b27ffc946)
 
 ## Code scaffolding
 
