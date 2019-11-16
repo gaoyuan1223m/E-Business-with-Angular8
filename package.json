@@ -1,15 +1,17 @@
 {
   "name": "pinduoduo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "start.prod": "ng serve --aot",
+    "start:mobile": "ng serve --host 0.0.0.0",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "ivy": "ivy-ngcc"
+    "ivy": "ivy-ngcc",
+    "db": "json-server web-db/db.json --routes web-db/routes.json"
   },
   "private": true,
   "dependencies": {
@@ -36,6 +38,7 @@
     "codelyzer": "^5.0.1",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
+    "json-server": "^0.15.1",
     "karma": "~4.1.0",
     "karma-chrome-launcher": "~2.2.0",
     "karma-coverage-istanbul-reporter": "~2.0.1",
