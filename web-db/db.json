@@ -1,35 +1,52 @@
 {
-  "posts": [
+  "tabs": [
     {
-      "id": 1,
-      "title": "Post 1"
+      "title": "热门",
+      "link": ""
     },
     {
-      "id": 2,
-      "title": "Post 2"
+      "title": "男装",
+      "link": ""
     },
     {
-      "id": 3,
-      "title": "Post 3"
+      "title": "热门03",
+      "link": ""
     },
     {
-      "id": 44,
-      "title": "POST 4"
+      "title": "热门04",
+      "link": ""
+    },
+    {
+      "title": "热门05",
+      "link": ""
+    },
+    {
+      "title": "热门06",
+      "link": ""
+    },
+    {
+      "title": "热门07",
+      "link": ""
+    },
+    {
+      "title": "男装08",
+      "link": ""
+    },
+    {
+      "title": "热门09",
+      "link": ""
+    },
+    {
+      "title": "热门10",
+      "link": ""
+    },
+    {
+      "title": "热门11",
+      "link": ""
+    },
+    {
+      "title": "热门12",
+      "link": ""
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

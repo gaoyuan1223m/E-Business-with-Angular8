@@ -38,7 +38,7 @@ export class ScrollableTabComponent {
    * 是因为系统框架帮我们做了这个，这是依赖注入的概念
    */
   constructor() {
-    console.log('构造函数');
+    
   }
 
   handleSelection(index: number) {
