@@ -31,7 +31,7 @@ export class ScrollableTabComponent {
   @Input() titleActiveColor = 'yellow';
   @Input() titleColor = 'blue';
   @Input() indicatorColor = 'brown';
-  @Output() tabSelected = new EventEmitter();
+  @Output() tabSelected = new EventEmitter<TopMenu>();
   /**
    * 第一个执行，构造函数是建立这个类的实例
    * 之所以我们没有显性的使用 new ScrollableTabComponent()
