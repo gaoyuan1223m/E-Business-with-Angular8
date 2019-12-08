@@ -27,12 +27,11 @@ export class ImageSliderComponent implements OnInit, AfterViewInit, OnDestroy {
   @Input() sliders: ImageSlider[] = [];
   @Input() sliderHeight = '160px';
   @Input() intervalBySeconds = 2;
-  @ViewChild('imageSlider', { static: true })
-  imgSlider: ElementRef;
+  @ViewChild('imageSlider', { static: true }) imgSlider: ElementRef;
   selectedIndex = 0;
-  constructor(private rd2: Renderer2) {}
+  constructor(private rd2: Renderer2) { }
   intervalId;
-  ngOnInit() {}
+  ngOnInit() { }
 
   ngAfterViewInit(): void {
     if (this.intervalBySeconds <= 0) {
@@ -44,7 +43,7 @@ export class ImageSliderComponent implements OnInit, AfterViewInit, OnDestroy {
         'scrollLeft',
         (this.getIndex(++this.selectedIndex) *
           this.imgSlider.nativeElement.scrollWidth) /
-          this.sliders.length
+        this.sliders.length
       );
     }, this.intervalBySeconds * 1000);
   }

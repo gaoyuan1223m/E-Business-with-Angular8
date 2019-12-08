@@ -52,31 +52,31 @@
   "banners": [
     {
       "id": 1,
-      "imgUrl": "src/assets/slider/slider1.png",
+      "imgUrl": "../../../../assets/slider/slider1.png",
       "link": "",
       "caption": "I LOVE PIN-Duoduo"
     },
     {
       "id": 2,
-      "imgUrl": "src/assets/slider/slider2.png",
+      "imgUrl": "../../../../assets/slider/slider2.png",
       "link": "",
       "caption": "PIN-Duoduo APP"
     },
     {
       "id": 3,
-      "imgUrl": "src/assets/slider/slider3.png",
+      "imgUrl": "../../../../assets/slider/slider3.png",
       "link": "",
       "caption": "PIN-Duoduo 11.11"
     },
     {
       "id": 4,
-      "imgUrl": "src/assets/slider/slider4.png",
+      "imgUrl": "../../../../assets/slider/slider4.png",
       "link": "",
       "caption": "PIN-Duoduo in Japan"
     },
     {
       "id": 5,
-      "imgUrl": "src/assets/slider/slider5.png",
+      "imgUrl": "../../../../assets/slider/slider5.png",
       "link": "",
       "caption": "We all LOVE PIN-Duoduo"
     }
