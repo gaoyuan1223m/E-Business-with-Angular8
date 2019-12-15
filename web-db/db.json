@@ -9,43 +9,63 @@
       "link": ""
     },
     {
-      "title": "热门03",
+      "title": "百货",
       "link": ""
     },
     {
-      "title": "热门04",
+      "title": "运动",
       "link": ""
     },
     {
-      "title": "热门05",
+      "title": "手机",
       "link": ""
     },
     {
-      "title": "热门06",
+      "title": "家纺",
       "link": ""
     },
     {
-      "title": "热门07",
+      "title": "食品",
       "link": ""
     },
     {
-      "title": "男装08",
+      "title": "电器",
       "link": ""
     },
     {
-      "title": "热门09",
+      "title": "鞋包",
       "link": ""
     },
     {
-      "title": "热门10",
+      "title": "汽车",
       "link": ""
     },
     {
-      "title": "热门11",
+      "title": "水果",
       "link": ""
     },
     {
-      "title": "热门12",
+      "title": "电脑",
+      "link": ""
+    },
+    {
+      "title": "内衣",
+      "link": ""
+    },
+    {
+      "title": "家装",
+      "link": ""
+    },
+    {
+      "title": "母婴",
+      "link": ""
+    },
+    {
+      "title": "美妆",
+      "link": ""
+    },
+    {
+      "title": "家具",
       "link": ""
     }
   ],
@@ -79,6 +99,104 @@
       "imgUrl": "../../../../assets/slider/slider5.png",
       "link": "",
       "caption": "We all LOVE PIN-Duoduo"
+    }
+  ],
+  "channels": [
+    {
+      "id":1,
+      "icon":"../../../../assets/channels/1.png",
+      "title":"限时秒杀",
+      "link":""
+    },
+    {
+      "id":2,
+      "icon":"../../../../assets/channels/2.png",
+      "title":"断码清仓",
+      "link":""
+    },
+    {
+      "id":3,
+      "icon":"../../../../assets/channels/3.png",
+      "title":"品牌馆",
+      "link":""
+    },
+    {
+      "id":4,
+      "icon":"../../../../assets/channels/4.png",
+      "title":"多多果园",
+      "link":""
+    },
+    {
+      "id":5,
+      "icon":"../../../../assets/channels/5.png",
+      "title":"9块9特卖",
+      "link":""
+    },
+    {
+      "id":6,
+      "icon":"../../../../assets/channels/6.png",
+      "title":"助力享免单",
+      "link":""
+    },
+    {
+      "id":7,
+      "icon":"../../../../assets/channels/7.png",
+      "title":"天天领现金",
+      "link":""
+    },
+    {
+      "id":8,
+      "icon":"../../../../assets/channels/8.png",
+      "title":"1分抽大奖",
+      "link":""
+    },
+    {
+      "id":9,
+      "icon":"../../../../assets/channels/9.png",
+      "title":"充值中心",
+      "link":""
+    },
+    {
+      "id":10,
+      "icon":"../../../../assets/channels/10.png",
+      "title":"每日好店",
+      "link":""
+    },
+    {
+      "id":11,
+      "icon":"../../../../assets/channels/11.png",
+      "title":"现金签到",
+      "link":""
+    },
+    {
+      "id":12,
+      "icon":"../../../../assets/channels/12.png",
+      "title":"金猪赚大钱",
+      "link":""
+    },
+    {
+      "id":13,
+      "icon":"../../../../assets/channels/13.png",
+      "title":"电器城",
+      "link":""
+    },
+    {
+      "id":14,
+      "icon":"../../../../assets/channels/14.png",
+      "title":"爱逛街",
+      "link":""
+    },
+    {
+      "id":15,
+      "icon":"../../../../assets/channels/15.png",
+      "title":"砍价免费拿",
+      "link":""
+    },
+    {
+      "id":16,
+      "icon":"../../../../assets/channels/16.png",
+      "title":"帮帮免费团",
+      "link":""
     }
   ]
 }

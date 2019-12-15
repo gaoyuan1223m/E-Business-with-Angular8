@@ -1,4 +1,8 @@
 export function Emoji() {
+  /**
+   * @param: target->components that import the decorator
+   * @param: key->passing parameter
+   */
   return (target: object, key: string | symbol) => {
     let val = target[key];
 
