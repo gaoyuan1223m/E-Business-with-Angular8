@@ -26,7 +26,7 @@ export interface ImageSlider {
 export class ImageSliderComponent implements OnInit, AfterViewInit, OnDestroy {
   @Input() sliders: ImageSlider[] = [];
   @Input() sliderHeight = '160px';
-  @Input() intervalBySeconds = 2;
+  @Input() intervalBySeconds = 5;
   @ViewChild('imageSlider', { static: true }) imgSlider: ElementRef;
   selectedIndex = 0;
   constructor(private rd2: Renderer2) { }
@@ -49,7 +49,7 @@ export class ImageSliderComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    clearInterval(this.intervalId);
+    clearInterval(this.intervalId); // avoid memory leak
   }
 
   getIndex(idx: number): number {
