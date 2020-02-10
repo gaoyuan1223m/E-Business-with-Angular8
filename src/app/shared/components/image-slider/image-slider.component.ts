@@ -27,16 +27,24 @@ export class ImageSliderComponent implements OnInit, AfterViewInit, OnDestroy {
   @Input() sliders: ImageSlider[] = [];
   @Input() sliderHeight = '160px';
   @Input() intervalBySeconds = 5;
+  /**
+   * ViewChild是一个选择去，用来查找要引用的DOM元素或者组件
+   * 由于DOM元素不是Angular中的类，需要一个包装类，以便在Angular中使用
+   * 如果ViewChild 元素在ng-if 或者 ng-for包含下，那就是动态的， {static: false}, else true
+   * 详见 notes20191208.md
+   */
   @ViewChild('imageSlider', { static: true }) imgSlider: ElementRef;
-  selectedIndex = 0;
-  constructor(private rd2: Renderer2) { }
-  intervalId;
+
+  public selectedIndex = 0;
+  
+  private intervalId: any;
+
   ngOnInit() { }
 
   ngAfterViewInit(): void {
     if (this.intervalBySeconds <= 0) {
       return;
-    }
+    } // 实现轮播图
     this.intervalId = setInterval(() => {
       this.rd2.setProperty(
         this.imgSlider.nativeElement,
@@ -63,4 +71,6 @@ export class ImageSliderComponent implements OnInit, AfterViewInit, OnDestroy {
       ev.target.scrollLeft / (ev.target.scrollWidth / this.sliders.length);
     this.selectedIndex = Math.round(ratio);
   }
+  
+  constructor(private rd2: Renderer2) { }
 }

@@ -1,21 +1,22 @@
 .container {
   position: relative;
-  overflow: hidden;
+  /*overflow 定义当一个元素的内容太大而无法适应 块级格式化上下文 时候该做什么*/
+  overflow: hidden; /* 内容会被修剪，并且其余内容不可见 */
 }
 
 .container .image-slider {
   display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll; /*桌面浏览器总是显示滚动条，无论内容是否发生溢出。这可以避免滚动条的显示与消失所导致的元素尺寸不确定的问题*/
+  scroll-snap-type: x mandatory; /*强制x轴吸附*/
+  scroll-behavior: smooth; /*轮播效果-平滑过渡*/
+  -webkit-overflow-scrolling: touch; /*手机上可以直接触屏滑动*/
 }
 
 .container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  scroll-snap-align: start;
+  scroll-snap-align: start; /*不到一半，回到start*/
 }
 
 .nav-section {
@@ -45,5 +46,5 @@
 }
 
 .nav-section .slide-button-select {
-  background-color: #e02f29;
+  background-color: #20f004;
 }
