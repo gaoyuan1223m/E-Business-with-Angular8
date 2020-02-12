@@ -63,3 +63,6 @@ import { DialogModule } from '../dialog';
   ]
 })
 export class SharedModule {}
+/**
+ * 导入导出集合Module, 其他module导入ShareModule即可
+ */
