@@ -19,28 +19,27 @@ export interface Channel {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HorizontalGridComponent implements OnInit {
-  @Input() cols = 8;
-  @Input() displayCols = 5;
+  @Input() cols = 8; // 一行一共有几列
+  @Input() displayCols = 5; // 一行能看见几列
   sliderMargin = '0';
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
+  // 计算属性
   public get scrollable(): boolean {
     return this.cols > this.displayCols;
   }
 
   public get templateRows(): string {
-    return `minmax(auto, max-content)`;
+    return `minmax(auto, max-content)`; // css函数
   }
 
   public get templateColumns(): string {
-    return `repeat(${this.cols}, calc((100vw - ${this.displayCols *
-      0.4}rem) / ${this.displayCols}))`;
+    return `repeat(${this.cols}, calc((100vw - ${this.displayCols * 0.4}rem) / ${this.displayCols}))`;
   }
 
   public handleScroll(ev) {
-    this.sliderMargin = `0 ${(100 * ev.target.scrollLeft) /
-      ev.target.scrollWidth}%`;
+    this.sliderMargin = `0 ${100 * ev.target.scrollLeft / ev.target.scrollWidth}%`; // margin: 上下 左右
   }
 }
