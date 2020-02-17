@@ -1,10 +1,9 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { Observable } from 'rxjs';
-
-import { TopMenu } from 'src/app/shared/components';
 import { Router, ActivatedRoute } from '@angular/router';
 import { HomeService } from '../../services';
 import { filter, map } from 'rxjs/operators';
+import { TopMenu } from 'src/app/shared/interfaces';
 
 @Component({
   selector: 'app-home-container',
@@ -13,18 +12,14 @@ import { filter, map } from 'rxjs/operators';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomeContainerComponent implements OnInit {
-  constructor(
-    private router: Router,
-    private service: HomeService,
-    private route: ActivatedRoute
-  ) {}
 
   topMenus$: Observable<TopMenu[]>;
   selectedTabLink$: Observable<string>;
 
   ngOnInit(): void {
     this.topMenus$ = this.service.getTabs();
-    this.selectedTabLink$ = this.route.firstChild.paramMap.pipe(
+
+    this.selectedTabLink$ = this.activatedRoute.firstChild.paramMap.pipe(
       filter(params => params.has('tabLink')),
       map(params => params.get('tabLink'))
     );
@@ -33,4 +28,11 @@ export class HomeContainerComponent implements OnInit {
   handleTabSelected(topMenu: TopMenu) {
     this.router.navigate(['home', topMenu.link]);
   }
+
+
+  constructor(
+    private router: Router, // 路由服务，用于路由跳转
+    private service: HomeService,
+    private activatedRoute: ActivatedRoute // 当前激活路由，用于路由参数获取
+  ) { }
 }

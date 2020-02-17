@@ -18,6 +18,15 @@ ul li {
 a {
   text-decoration: none;
 }
+
+/* .even {
+  background-color: azure;
+}
+
+.odd {
+  background-color: antiquewhite;
+} */
+
 ::-webkit-scrollbar {
   display: none;
 }

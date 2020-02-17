@@ -2,71 +2,71 @@
   "tabs": [
     {
       "title": "热门",
-      "link": ""
+      "link": "hot"
     },
     {
       "title": "男装",
-      "link": ""
+      "link": "man"
     },
     {
       "title": "百货",
-      "link": ""
+      "link": "merchandise"
     },
     {
       "title": "运动",
-      "link": ""
+      "link": "sports"
     },
     {
       "title": "手机",
-      "link": ""
+      "link": "phone"
     },
     {
       "title": "家纺",
-      "link": ""
+      "link": "textiles"
     },
     {
       "title": "食品",
-      "link": ""
+      "link": "food"
     },
     {
       "title": "电器",
-      "link": ""
+      "link": "electron"
     },
     {
       "title": "鞋包",
-      "link": ""
+      "link": "shoes-bag"
     },
     {
       "title": "汽车",
-      "link": ""
+      "link": "car"
     },
     {
       "title": "水果",
-      "link": ""
+      "link": "fruit"
     },
     {
       "title": "电脑",
-      "link": ""
+      "link": "laptop"
     },
     {
       "title": "内衣",
-      "link": ""
+      "link": "underdress"
     },
     {
       "title": "家装",
-      "link": ""
+      "link": "home-improve"
     },
     {
       "title": "母婴",
-      "link": ""
+      "link": "maternal"
     },
     {
       "title": "美妆",
-      "link": ""
+      "link": "cosmetics"
     },
     {
       "title": "家具",
-      "link": ""
+      "link": "furniture"
     }
   ],
   "banners": [

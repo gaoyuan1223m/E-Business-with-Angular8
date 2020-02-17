@@ -18,14 +18,14 @@ import { RouterModule, Routes } from '@angular/router';
  * ```
  */
 const routes: Routes = [{ path: '', redirectTo: 'home', pathMatch: 'full' }];
-
+// 代表 redirectTo location.origin/home
 @NgModule({
   /**
    * 根路由使用 `RouterModule.forRoot(routes)` 形式。
    * 而功能模块中的路由模块使用 `outerModule.forChild(routes)` 形式。
    * 启用路由的 debug 跟踪模式，需要在根模块中设置 `enableTracing: true`
    */
-  imports: [RouterModule.forRoot(routes, { enableTracing: true })],
+  imports: [RouterModule.forRoot(routes, { enableTracing: true })], // 定义根路由，一般在app-routing-module定义
   exports: [RouterModule]
 })
 export class AppRoutingModule {}
