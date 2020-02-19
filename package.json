@@ -2,8 +2,9 @@
   "name": "pinduoduo",
   "version": "0.1.0",
   "scripts": {
+    "start": "concurrently \"npm run start:local\" \"npm run db\"", 
     "ng": "ng",
-    "start": "ng serve",
+    "start:local": "ng serve",
     "start.prod": "ng serve --aot",
     "start:mobile": "ng serve --host 0.0.0.0",
     "build": "ng build",
@@ -23,6 +24,7 @@
     "@angular/platform-browser": "~8.0.0",
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/router": "~8.0.0",
+    "concurrently": "^5.1.0",
     "rxjs": "~6.5.2",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"

@@ -9,13 +9,8 @@ import {
   OnDestroy,
   ChangeDetectionStrategy
 } from '@angular/core';
+import { ImageSlider } from 'src/app/shared';
 
-export interface ImageSlider {
-  id: number;
-  imgUrl: string;
-  link: string;
-  caption: string;
-}
 
 @Component({
   selector: 'app-image-slider',

@@ -12,7 +12,8 @@ import { TopMenu } from 'src/app/shared/interfaces';
  * 对于引入第三方类库较多的应用可以有效减小 js 大小
  */
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root' // 目的: 编译的JS 只有真正注入的服务才会在编译其中
+  // providedIn: HomeModule
 })
 export class HomeService {
   getBanners() {

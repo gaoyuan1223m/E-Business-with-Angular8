@@ -6,7 +6,8 @@ import {
   Input,
   ChangeDetectionStrategy
 } from '@angular/core';
-import { TabItem } from '../../domain';
+
+import { TabItem } from "src/app/shared";
 
 @Component({
   selector: 'app-footer',

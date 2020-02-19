@@ -1,1 +1,6 @@
+export * from './channel'
+export * from './image-slider'
 export * from './top-menu'
+export * from './tab-item'
+export * from './ad'
+export * from './product'

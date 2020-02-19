@@ -1,13 +1,20 @@
 <ng-container *ngIf="selectedTabLink$ | async as tab">
-  <ng-container *ngIf="tab === 'hot'">
+
+  <ng-container *ngIf="tab === 'hot' else other">
+
     <app-image-slider [sliders]="imageSliders$ | async"> </app-image-slider>
+
     <app-horizontal-grid>
       <span appGridItem *ngFor="let item of channels$ | async">
         <img appGridItemImage="2rem" [src]="item.icon" alt="" />
         <span appGridItemTitle="0.6rem" class="title">{{ item.title }}</span>
       </span>
     </app-horizontal-grid>
+
   </ng-container>
+
+  <ng-template #other> {{tab}} </ng-template>
+
 </ng-container>
 
 <div class="ad-container" *ngIf="ad$ | async as ad">

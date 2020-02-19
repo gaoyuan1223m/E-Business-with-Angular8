@@ -5,12 +5,6 @@ import {
   ChangeDetectionStrategy
 } from '@angular/core';
 
-export interface Channel {
-  id: number;
-  title: string;
-  icon: string;
-  link: string;
-}
 
 @Component({
   selector: 'app-horizontal-grid',

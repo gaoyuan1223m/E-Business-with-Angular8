@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Observable, Subscription } from 'rxjs';
 import { filter, map, switchMap } from 'rxjs/operators';
 
-import { ImageSlider, Channel, Ad, Product } from 'src/app/shared';
+import { Channel, Ad, Product, ImageSlider } from 'src/app/shared';
 import { HomeService } from '../../services';
 
 @Component({
@@ -33,13 +33,13 @@ export class HomeDetailComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.selectedTabLink$ = this.route.paramMap.pipe(
-      // URL[路径]参数，localhost：4200/home/hot, 可以查询到{tablink：hot}
+      // (paramMap) URL[路径]参数，localhost：4200/home/hot, 可以查询到{tablink：hot}
       filter(params => params.has('tabLink')),
       map(params => params.get('tabLink'))
     );
 
     this.sub = this.route.queryParamMap.subscribe(params => {
-      // URL[查询]参数(query parameter)，localhost：4200/home/hot?id=1&age=18, 可以查询到{id:1, age:18}
+      // (queryParamMap) URL[查询]参数(query parameter)，localhost：4200/home/hot?id=1&age=18, 可以查询到{id:1, age:18}
       console.log('查询参数', params);
     });
 

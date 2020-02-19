@@ -50,6 +50,6 @@ import localeZh from '@angular/common/locales/zh-Hans';
 })
 export class AppModule {
   constructor() {
-    registerLocaleData(localeZh, 'zh');
+    registerLocaleData(localeZh, 'zh'); // 注册中文
   }
 }

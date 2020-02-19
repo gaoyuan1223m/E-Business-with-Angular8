@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Product } from '../../domain';
+import { Product } from 'src/app/shared';
 
 @Component({
   selector: 'app-product-tile',
