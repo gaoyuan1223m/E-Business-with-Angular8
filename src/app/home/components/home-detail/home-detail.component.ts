@@ -19,11 +19,11 @@ import { HomeService } from '../../services';
 })
 export class HomeDetailComponent implements OnInit, OnDestroy {
 
-  selectedTabLink$: Observable<string>;
+  selectedTabLink$: Observable<string>; // 轮播图上方的选择签
 
-  imageSliders$: Observable<ImageSlider[]>;
-
-  channels$: Observable<Channel[]>;
+  imageSliders$: Observable<ImageSlider[]>; // 轮播图
+ 
+  channels$: Observable<Channel[]>; // 轮播图下方两行八列的小图标
 
   ad$: Observable<Ad>;
 
@@ -61,12 +61,11 @@ export class HomeDetailComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.sub.unsubscribe();
-  }
-
-
+  } // 需要取消订阅，否则内存泄露
 
   constructor(
     private route: ActivatedRoute,
     private service: HomeService
   ) { }
+
 }
