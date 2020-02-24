@@ -11,8 +11,9 @@ import { DialogService } from './dialog';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+
   selectedIndex$: Observable<number>;
-  constructor(private router: Router, private dialogService: DialogService) {}
+
   ngOnInit(): void {
     this.selectedIndex$ = this.router.events.pipe(
       filter(ev => ev instanceof NavigationEnd),
@@ -23,21 +24,29 @@ export class AppComponent implements OnInit {
       map(tab => this.getSelectedIndex(tab))
     );
   }
+
   handleTabSelect(tab: TabItem) {
     this.router.navigate([tab.link]);
   }
+
   getSelectedIndex(tab: string) {
     return tab === 'recommend'
       ? 1
       : tab === 'category'
-      ? 2
-      : tab === 'chat'
-      ? 3
-      : tab === 'my'
-      ? 4
-      : 0;
+        ? 2
+        : tab === 'chat'
+          ? 3
+          : tab === 'my'
+            ? 4
+            : 0;
   }
+
   removeDialog() {
     this.dialogService.close();
   }
+
+  constructor(
+    private router: Router,
+    private dialogService: DialogService
+  ) { }
 }
