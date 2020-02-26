@@ -4,10 +4,10 @@
 }
 .container {
   display: grid;
-  grid-template-columns: 10rem 1fr;
-  grid-template-rows: 3rem 1fr 1rem 2rem;
+  grid-template-columns: 10rem 1fr; /*两列， 第一列：10rem, 第二列 占满*/
+  grid-template-rows: 3rem 1fr 1rem 2rem; /*四行， 第一行 3rem, 第二行 占满。 第三行 1rem， 第四行 2rem*/
   grid-gap: 5px;
-  grid-template-areas:
+  grid-template-areas: /*两行四列的标题 分布格式*/
     'image title'
     'image .'
     'image tags'
@@ -16,7 +16,7 @@
   place-items: stretch;
 }
 .product-image {
-  grid-area: image;
+  grid-area: image; /*对应的就是：grid-template-areas中的值*/
   object-fit: contain;
   width: 9rem;
   height: 9rem;
@@ -31,7 +31,7 @@
   grid-area: price;
   display: grid;
   grid-gap: 3px;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 30% 45% 25%;
   grid-template-areas: 'price-detail price-desc price-avatar';
   place-content: stretch;
   place-items: center;

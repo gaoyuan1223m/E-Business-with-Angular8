@@ -72,131 +72,196 @@
   "banners": [
     {
       "id": 1,
-      "imgUrl": "../../../../assets/slider/slider1.png",
+      "imgUrl": "assets/slider/slider1.png",
       "link": "",
       "caption": "I LOVE PIN-Duoduo"
     },
     {
       "id": 2,
-      "imgUrl": "../../../../assets/slider/slider2.png",
+      "imgUrl": "assets/slider/slider2.png",
       "link": "",
       "caption": "PIN-Duoduo APP"
     },
     {
       "id": 3,
-      "imgUrl": "../../../../assets/slider/slider3.png",
+      "imgUrl": "assets/slider/slider3.png",
       "link": "",
       "caption": "PIN-Duoduo 11.11"
     },
     {
       "id": 4,
-      "imgUrl": "../../../../assets/slider/slider4.png",
+      "imgUrl": "assets/slider/slider4.png",
       "link": "",
       "caption": "PIN-Duoduo in Japan"
     },
     {
       "id": 5,
-      "imgUrl": "../../../../assets/slider/slider5.png",
+      "imgUrl": "assets/slider/slider5.png",
       "link": "",
       "caption": "We all LOVE PIN-Duoduo"
     }
   ],
   "channels": [
     {
-      "id":1,
-      "icon":"../../../../assets/channels/1.png",
-      "title":"限时秒杀",
-      "link":""
+      "id": 1,
+      "icon": "assets/channels/1.png",
+      "title": "限时秒杀",
+      "link": ""
     },
     {
-      "id":2,
-      "icon":"../../../../assets/channels/2.png",
-      "title":"断码清仓",
-      "link":""
+      "id": 2,
+      "icon": "assets/channels/2.png",
+      "title": "断码清仓",
+      "link": ""
     },
     {
-      "id":3,
-      "icon":"../../../../assets/channels/3.png",
-      "title":"品牌馆",
-      "link":""
+      "id": 3,
+      "icon": "assets/channels/3.png",
+      "title": "品牌馆",
+      "link": ""
     },
     {
-      "id":4,
-      "icon":"../../../../assets/channels/4.png",
-      "title":"多多果园",
-      "link":""
+      "id": 4,
+      "icon": "assets/channels/4.png",
+      "title": "多多果园",
+      "link": ""
     },
     {
-      "id":5,
-      "icon":"../../../../assets/channels/5.png",
-      "title":"9块9特卖",
-      "link":""
+      "id": 5,
+      "icon": "assets/channels/5.png",
+      "title": "9块9特卖",
+      "link": ""
     },
     {
-      "id":6,
-      "icon":"../../../../assets/channels/6.png",
-      "title":"助力享免单",
-      "link":""
+      "id": 6,
+      "icon": "assets/channels/6.png",
+      "title": "助力享免单",
+      "link": ""
     },
     {
-      "id":7,
-      "icon":"../../../../assets/channels/7.png",
-      "title":"天天领现金",
-      "link":""
+      "id": 7,
+      "icon": "assets/channels/7.png",
+      "title": "天天领现金",
+      "link": ""
     },
     {
-      "id":8,
-      "icon":"../../../../assets/channels/8.png",
-      "title":"1分抽大奖",
-      "link":""
+      "id": 8,
+      "icon": "assets/channels/8.png",
+      "title": "1分抽大奖",
+      "link": ""
     },
     {
-      "id":9,
-      "icon":"../../../../assets/channels/9.png",
-      "title":"充值中心",
-      "link":""
+      "id": 9,
+      "icon": "assets/channels/9.png",
+      "title": "充值中心",
+      "link": ""
     },
     {
-      "id":10,
-      "icon":"../../../../assets/channels/10.png",
-      "title":"每日好店",
-      "link":""
+      "id": 10,
+      "icon": "assets/channels/10.png",
+      "title": "每日好店",
+      "link": ""
     },
     {
-      "id":11,
-      "icon":"../../../../assets/channels/11.png",
-      "title":"现金签到",
-      "link":""
+      "id": 11,
+      "icon": "assets/channels/11.png",
+      "title": "现金签到",
+      "link": ""
     },
     {
-      "id":12,
-      "icon":"../../../../assets/channels/12.png",
-      "title":"金猪赚大钱",
-      "link":""
+      "id": 12,
+      "icon": "assets/channels/12.png",
+      "title": "金猪赚大钱",
+      "link": ""
     },
     {
-      "id":13,
-      "icon":"../../../../assets/channels/13.png",
-      "title":"电器城",
-      "link":""
+      "id": 13,
+      "icon": "assets/channels/13.png",
+      "title": "电器城",
+      "link": ""
     },
     {
-      "id":14,
-      "icon":"../../../../assets/channels/14.png",
-      "title":"爱逛街",
-      "link":""
+      "id": 14,
+      "icon": "assets/channels/14.png",
+      "title": "爱逛街",
+      "link": ""
     },
     {
-      "id":15,
-      "icon":"../../../../assets/channels/15.png",
-      "title":"砍价免费拿",
-      "link":""
+      "id": 15,
+      "icon": "assets/channels/15.png",
+      "title": "砍价免费拿",
+      "link": ""
     },
     {
-      "id":16,
-      "icon":"../../../../assets/channels/16.png",
-      "title":"帮帮免费团",
-      "link":""
+      "id": 16,
+      "icon": "assets/channels/16.png",
+      "title": "帮帮免费团",
+      "link": ""
+    }
+  ],
+  "ads_hot": {
+    "imageUrl": "/assets/ads/002.gif",
+    "link": "hhh"
+  },
+  "products_hot": [
+    {
+      "id": 1,
+      "imageUrl": "/assets/products/huawei1.png",
+      "title": "【华为官方正品】华为P20 全面屏 徕卡三摄AI摄影大师",
+      "tags": [
+        " 全场包邮 ",
+        " 不中退款 "
+      ],
+      "price": 4299,
+      "priceDesc": " 已拼804件 ",
+      "buyerAvatars": [
+        "/assets/avatars/001.png",
+        "/assets/avatars/002.png"
+      ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "/assets/products/iphone1.png",
+      "title": "【官方正品】Apple/苹果iPhone手机全新7代7plus国行指纹全网通4G",
+      "tags": [
+        " 退货包运费 ",
+        " 低价好货 "
+      ],
+      "price": 4999,
+      "priceDesc": " 已拼3520件 ",
+      "buyerAvatars": [
+        "/assets/avatars/003.png"
+      ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "/assets/products/huawei1.png",
+      "title": "【全新正品】华为p30pro 超广角超感光徕卡四摄智能拍照游戏手机",
+      "tags": [
+        " 顺丰包邮 ",
+        " 品牌馆 "
+      ],
+      "price": 5380,
+      "priceDesc": " 已拼1574件 ",
+      "buyerAvatars": [
+        "/assets/avatars/005.png",
+        "/assets/avatars/004.png"
+      ]
+    },
+    {
+      "id": 4,
+      "imageUrl": "/assets/products/huawei1.png",
+      "title": "【全新正品】华为p30pro 超广角超感光徕卡四摄智能拍照游戏手机",
+      "tags": [
+        " 顺丰包邮 ",
+        " 品牌馆 "
+      ],
+      "price": 5380,
+      "priceDesc": " 已拼1574件 ",
+      "buyerAvatars": [
+        "/assets/avatars/005.png",
+        "/assets/avatars/004.png"
+      ]
     }
   ]
 }

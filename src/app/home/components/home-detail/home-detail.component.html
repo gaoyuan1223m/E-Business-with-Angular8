@@ -17,6 +17,8 @@
 
 </ng-container>
 
+<!-- ng-container: 不增加DOM节点 -->
+
 <div class="ad-container" *ngIf="ad$ | async as ad">
   <img [src]="ad.imageUrl" alt="" class="ad-image" />
 </div>

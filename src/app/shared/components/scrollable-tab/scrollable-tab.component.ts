@@ -29,10 +29,10 @@ export class ScrollableTabComponent {
   @Input() indicatorColor = 'brown'; //
   @Output() tabSelected = new EventEmitter<TopMenu>();
 
-  selectedIndex: number = 0;
+  // selectedIndex: number = 0;
 
   handleSelection(index: number) {
-    this.selectedIndex = index;
+    // this.selectedIndex = index;
     this.tabSelected.emit(this.menus[index]);
   }
 

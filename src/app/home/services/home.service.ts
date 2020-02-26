@@ -28,6 +28,14 @@ export class HomeService {
     return this.http.get<TopMenu[]>(`${environment.baseUrl}/tabs`);
   }
 
+  getHotAd() {
+    return this.http.get<Ad>(`${environment.baseUrl}/ads_hot`);
+  }
+
+  getHotProduct() {
+    return this.http.get<Product[]>(`${environment.baseUrl}/products_hot`)
+  }
+
   getAdByTab(tab: string) {
     return this.http.get<Ad[]>(`${environment.baseUrl}/ads`, {
       params: { categories_like: tab }
@@ -40,6 +48,6 @@ export class HomeService {
     });
   }
 
-  
-  constructor(private http: HttpClient) {}
+
+  constructor(private http: HttpClient) { }
 }

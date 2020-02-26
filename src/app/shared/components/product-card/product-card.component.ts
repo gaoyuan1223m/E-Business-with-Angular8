@@ -7,8 +7,10 @@ import { Product } from "src/app/shared";
   styleUrls: ['./product-card.component.css']
 })
 export class ProductCardComponent implements OnInit {
-  @Input() product: Product;
-  constructor() {}
 
-  ngOnInit() {}
+  @Input() product: Product;
+
+  ngOnInit() { }
+
+  constructor() { }
 }

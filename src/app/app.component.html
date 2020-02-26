@@ -3,9 +3,11 @@
   而不是在 router-outlet 中包含
 -->
 <router-outlet></router-outlet>
+
 <app-footer
   (tabSelected)="handleTabSelect($event)"
   [selectedIndex]="selectedIndex$ | async"
 ></app-footer>
+
 <div id="overlay" class="hidden" (click)="removeDialog()"></div>
 <div id="dialog-container" class="hidden"></div>

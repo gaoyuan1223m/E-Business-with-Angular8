@@ -14,6 +14,7 @@ import { TopMenu } from 'src/app/shared/interfaces';
 export class HomeContainerComponent implements OnInit {
 
   topMenus$: Observable<TopMenu[]>;
+  
   selectedTabLink$: Observable<string>;
 
   ngOnInit(): void {
