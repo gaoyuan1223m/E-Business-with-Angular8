@@ -15,13 +15,17 @@ export class RecommendContainerComponent implements OnInit {
 
   products$: Observable<Product[]>;
 
-  constructor(private service: HomeService) {}
-
   ngOnInit() {
-    this.ad$ = this.service.getAdByTab('men').pipe(
-      filter(ads => ads.length > 0),
-      map(ads => ads[0])
-    );
-    this.products$ = this.service.getProductsByTab('men');
+    this.ad$ = this.homeService.getHotAd();
+    this.products$ = this.homeService.getHotProduct();
+    // this.ad$ = this.service.getAdByTab('men').pipe(
+    //   filter(ads => ads.length > 0),
+    //   map(ads => ads[0])
+    // );
+    // this.products$ = this.service.getProductsByTab('men');
   }
+
+  constructor(
+    private homeService: HomeService
+  ) { }
 }

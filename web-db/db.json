@@ -200,6 +200,7 @@
     }
   ],
   "ads_hot": {
+    "id": "1",
     "imageUrl": "/assets/ads/002.gif",
     "link": "hhh"
   },
@@ -250,13 +251,43 @@
     },
     {
       "id": 4,
-      "imageUrl": "/assets/products/huaweipro30.jpeg",
-      "title": "【全新正品】华为p30pro 超广角超感光徕卡四摄智能拍照游戏手机",
+      "imageUrl": "/assets/forsales/vivo1.jpeg",
+      "title": "【水滴屏】vivo X23幻彩版水滴屏屏幕指纹AI双摄游戏手机",
+      "tags": [
+        " 顺丰包邮 ",
+        " 品牌馆 "
+      ],
+      "price": 1999,
+      "priceDesc": " 已拼11件 ",
+      "buyerAvatars": [
+        "/assets/avatars/005.png",
+        "/assets/avatars/004.png"
+      ]
+    },
+    {
+      "id": 5,
+      "imageUrl": "/assets/forsales/iPhone2.jpeg",
+      "title": "【全新国行正品带票】iPhone XR 全网通苹果手机 抢券请看详情【预售：3月19日发完】",
       "tags": [
         " 顺丰包邮 ",
         " 品牌馆 "
       ],
       "price": 5380,
+      "priceDesc": " 已拼574件 ",
+      "buyerAvatars": [
+        "/assets/avatars/005.png",
+        "/assets/avatars/004.png"
+      ]
+    },
+    {
+      "id": 6,
+      "imageUrl": "/assets/forsales/snack1.jpeg",
+      "title": "【领券立减 】三只松鼠坚果干果组合655/1105g多规格夏威夷碧根果",
+      "tags": [
+        " 全场包邮 ",
+        " 限时秒杀 "
+      ],
+      "price": 49.9,
       "priceDesc": " 已拼1574件 ",
       "buyerAvatars": [
         "/assets/avatars/005.png",
@@ -264,37 +295,7 @@
       ]
     },
     {
-      "id": 4,
-      "imageUrl": "/assets/products/huawei1.png",
-      "title": "【全新正品】华为p30pro 超广角超感光徕卡四摄智能拍照游戏手机",
-      "tags": [
-        " 顺丰包邮 ",
-        " 品牌馆 "
-      ],
-      "price": 5380,
-      "priceDesc": " 已拼1574件 ",
-      "buyerAvatars": [
-        "/assets/avatars/005.png",
-        "/assets/avatars/004.png"
-      ]
-    },
-    {
-      "id": 4,
-      "imageUrl": "/assets/products/huawei1.png",
-      "title": "【全新正品】华为p30pro 超广角超感光徕卡四摄智能拍照游戏手机",
-      "tags": [
-        " 顺丰包邮 ",
-        " 品牌馆 "
-      ],
-      "price": 5380,
-      "priceDesc": " 已拼1574件 ",
-      "buyerAvatars": [
-        "/assets/avatars/005.png",
-        "/assets/avatars/004.png"
-      ]
-    },
-    {
-      "id": 4,
+      "id": 7,
       "imageUrl": "/assets/products/huawei1.png",
       "title": "【全新正品】华为p30pro 超广角超感光徕卡四摄智能拍照游戏手机",
       "tags": [
